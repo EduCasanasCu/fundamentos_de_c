@@ -49,3 +49,27 @@ int main(){
 La segunda edad es: 33 
 La primera edad es: 25
 ``` 
+## Variables constantes y flotantes
+```c
+#include <stdio.h>
+int main(){
+    // Constantes => #define NOMBRE valor
+    #define PI 3.1416
+
+    // Variables => tipo nombre = valor;
+    float sueldo = 102500;
+    float bono = 450;
+
+    sueldo = sueldo + bono; // sueldo += bono;
+
+    printf("El sueldo es: %f\n", sueldo);
+    printf("El valor de PI es: %f", PI);
+
+    return 0;
+}
+```
+**Salida por consola:**
+```
+El sueldo es: 102950.000000
+El valor de PI es: 3.141600
+```
