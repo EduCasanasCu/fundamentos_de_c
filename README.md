@@ -84,6 +84,26 @@ El valor de PI es: 3.141600
 | \\" | comillas |
 | \\? | signo de interrogacion |
 | \\\\ | barra invertida |
+## Utilizacion de las secuencias de escape
+```c
+#include <stdio.h>
+int main(){
+    // salto de linea
+    printf("Hello, World!\n");
 
+    // tabulador
+    printf("Buenos\tdias");
 
+    // comillas
+    printf("\n\"Buenos dias\"");
+    
+    return 0;
+}
+``` 
+**Salida por consola:**
+```
+Hello, World!
+Buenos  dias
+"Buenos dias"
+``` 
 
