@@ -73,3 +73,17 @@ int main(){
 El sueldo es: 102950.000000
 El valor de PI es: 3.141600
 ```
+## Secuencias de escape
+| \0 | nulo |
+|:------:|:--------:|
+| \b | retroceso |
+| \t | tabulador |
+| \n | salto de línea |
+| \f | salto de pagina |
+| \r | retorno de carro |
+| \\" | comillas |
+| \\? | signo de interrogacion |
+| \\\\ | barra invertida |
+
+
+
