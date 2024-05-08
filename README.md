@@ -106,4 +106,88 @@ Hello, World!
 Buenos  dias
 "Buenos dias"
 ``` 
+## Operadores aritmeticos
+```c
+#include <stdio.h>
+int main(){
+    
+    int num1 = 10;
+    int num2 = 5;
+    int suma, resta, multiplicacion, division, modulo;
 
+    //Suma
+    suma = num1 + num2;
+    printf("Suma: %d\n", suma);
+
+    //Resta
+    resta = num1 - num2;
+    printf("Resta: %d\n", resta);
+
+    //Multiplicación
+    multiplicacion = num1 * num2;
+    printf("Multiplicación: %d\n", multiplicacion);
+
+    //División
+    division = num1 / num2;
+    printf("División: %d\n", division);
+
+    //Módulo
+    modulo = num1 % num2;
+    printf("Módulo: %d\n", modulo); 
+    
+    return 0;
+}
+```
+**Salida por consola:**
+```
+Suma: 15
+Resta: 5
+Multiplicación: 50
+División: 2
+Módulo: 0
+```
+## Operadores de incremento y decremento
+### Incremento
+```c
+#include <stdio.h>
+int main(){
+    
+    int numero = 5;
+    int numero2 = 10;
+
+    numero++;
+    numero2 += 1;
+
+    printf("El numero incrementado es: %d\n", numero);
+    printf("El numero2 incrementado es: %d\n", numero2);
+    
+    return 0;
+}
+```
+**Salida por consola:**
+```
+El numero incrementado es: 6
+El numero2 incrementado es: 11
+```
+### Decremento
+```c
+#include <stdio.h>
+int main(){
+    
+    int numero = 15;
+    int numero2 = 20;
+
+    numero--;
+    numero2 -= 10;
+
+    printf("El numero decrementado es: %d\n", numero);
+    printf("El numero2 decrementado es: %d\n", numero2);
+    
+    return 0;
+}
+```
+**Salida por consola:**
+```
+El numero decrementado es: 14
+El numero2 decrementado es: 10
+```
